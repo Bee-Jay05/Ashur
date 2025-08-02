@@ -61,7 +61,7 @@ export default function HeroCarousel() {
 
   return (
     <div className="relative top-16">
-      <div ref={sliderRef} className="keen-slider !w-[95vw] mx-auto h-[90vh] overflow-hidden rounded-3xl">
+      <div ref={sliderRef} className="keen-slider !w-[95vw] mx-auto h-[90vh] overflow-hidden rounded-2xl">
         {slides.map((slide, idx) => (
           <div
             key={idx}
