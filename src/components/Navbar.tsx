@@ -1,11 +1,8 @@
 export default function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/auth/login">Login</a></li>
-        <li><a href="/auth/register">Register</a></li>
-      </ul>
-    </nav>
+    <div>
+      <h1>Welcome to Ashur</h1>
+      <p>This is the main page of the Ashur application.</p>
+    </div>
   );
 }

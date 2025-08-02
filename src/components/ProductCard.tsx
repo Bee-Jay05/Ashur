@@ -1,10 +1,8 @@
 export default function ProductCard() {
   return (
-    <div className="product-card">
-      <h2></h2>
-      <p></p>
-      <span></span>
-      <button>Add to Cart</button>
+    <div>
+      <h1>Welcome to Ashur</h1>
+      <p>This is the main page of the Ashur application.</p>
     </div>
   );
 }
