@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import HeroCarousel from "@/components/HeroCarousel";
 import CategoryGrid from "@/components/CategoryGrid";
+import CategoriesSection from "@/components/CategoriesSection";
 // import NewArrivals from "@/components/NewArrivals";
 // import PopularProducts from "@/components/PopularProducts";
 // import Brand from "@/components/Brand";
@@ -15,6 +16,7 @@ export default function Home() {
             <Navbar />
             <HeroCarousel />
             <CategoryGrid />
+            <CategoriesSection />
             {/* 
             <Categories />
             <NewArrivals />

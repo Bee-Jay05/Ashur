@@ -3,6 +3,13 @@
 import 'keen-slider/keen-slider.min.css';
 import { useKeenSlider } from 'keen-slider/react';
 import { useEffect, useState, useRef } from 'react';
+import { Poppins } from 'next/font/google';
+
+const poppins = Poppins({ 
+  subsets: ['latin'], 
+  weight: '600', 
+  variable: '--font-poppins' 
+});
 
 const slides = [
   {
@@ -60,7 +67,7 @@ export default function HeroCarousel() {
   );
 
   return (
-    <div className="relative top-16">
+    <div className={`${poppins.className} relative top-16`}>
       <div ref={sliderRef} className="keen-slider !w-[95vw] mx-auto h-[90vh] overflow-hidden rounded-2xl">
         {slides.map((slide, idx) => (
           <div

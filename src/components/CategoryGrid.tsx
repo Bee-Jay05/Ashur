@@ -3,6 +3,13 @@
 'use client';
 
 import Image from 'next/image';
+import { Poppins } from 'next/font/google';
+
+const poppins = Poppins({ 
+  subsets: ['latin'], 
+  weight: '600', 
+  variable: '--font-poppins' 
+});
 
 const categories = [
   {
@@ -21,7 +28,7 @@ const categories = [
 
 export default function CategoryGrid() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 !w-[95vw] md:grid-cols-3 gap-3 mx-auto relative top-8 py-16">
+    <div className={`${poppins.className} grid grid-cols-1 sm:grid-cols-2 !w-[95vw] md:grid-cols-3 gap-3 mx-auto relative top-8 py-16`}>
       {categories.map((category, index) => (
         <div
           key={index}

@@ -3,13 +3,13 @@ import type { Metadata } from 'next'
 // These styles apply to every route in the application
 import './globals.css'
 
-import { Bruno_Ace_SC } from 'next/font/google';
 
-const bruno = Bruno_Ace_SC({
-  subsets: ['latin'],
-  weight: '400', // Bruno Ace SC only has one weight
-  display: 'swap',
-  variable: '--font-bruno', // Optional but useful for custom CSS vars
+import { Poppins } from 'next/font/google';
+
+const poppins = Poppins({ 
+  subsets: ['latin'], 
+  weight: '600', 
+  variable: '--font-poppins' 
 });
 
 export const metadata = {
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   )
 }
