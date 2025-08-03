@@ -7,7 +7,7 @@ import { Poppins } from 'next/font/google';
 
 const poppins = Poppins({ 
   subsets: ['latin'], 
-  weight: '600', 
+  weight: '500', 
   variable: '--font-poppins' 
 });
 
@@ -47,7 +47,7 @@ export default function CategoryGrid() {
 
           {/* Text + Button */}
           <div className="absolute bottom-6 px-6 z-10 flex justify-between items-center w-full">
-            <h2 className="text-white text-3xl font-semibold mb-4">
+            <h2 className="text-white text-3xl font-semibold">
               {category.label}
             </h2>
             <button className="bg-white text-black px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition">

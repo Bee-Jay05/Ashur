@@ -2,8 +2,8 @@ import Navbar from "@/components/Navbar";
 import HeroCarousel from "@/components/HeroCarousel";
 import CategoryGrid from "@/components/CategoryGrid";
 import CategoriesSection from "@/components/CategoriesSection";
-// import NewArrivals from "@/components/NewArrivals";
-// import PopularProducts from "@/components/PopularProducts";
+import NewArrivals from "@/components/NewArrivals";
+import PopularProducts from "@/components/PopularProducts";
 // import Brand from "@/components/Brand";
 // import Footer from "@/components/Footer";
 
@@ -17,10 +17,10 @@ export default function Home() {
             <HeroCarousel />
             <CategoryGrid />
             <CategoriesSection />
-            {/* 
-            <Categories />
             <NewArrivals />
             <PopularProducts />
+            {/* 
+            <Categories />
             <Brand />
             <Footer /> */}
         </div>

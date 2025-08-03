@@ -7,7 +7,7 @@ import { Poppins } from 'next/font/google';
 
 const poppins = Poppins({ 
   subsets: ['latin'], 
-  weight: '600', 
+  weight: '500', 
   variable: '--font-poppins' 
 });
 
@@ -80,7 +80,7 @@ export default function HeroCarousel() {
             }}
           >
             {/* Dark overlay */}
-            <div className="absolute inset-0 bg-black/20 z-0"></div>
+            <div className="absolute inset-0 bg-black/30 z-0"></div>
 
             <div className="z-10 max-w-xl">
               <h1 className="text-4xl sm:text-6xl font-bold">{slide.heading}</h1>
