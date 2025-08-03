@@ -5,7 +5,7 @@ import CategoriesSection from "@/components/CategoriesSection";
 import NewArrivals from "@/components/NewArrivals";
 import PopularProducts from "@/components/PopularProducts";
 // import Brand from "@/components/Brand";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 
 
@@ -19,10 +19,10 @@ export default function Home() {
             <CategoriesSection />
             <NewArrivals />
             <PopularProducts />
+            <Footer /> 
             {/* 
             <Categories />
-            <Brand />
-            <Footer /> */}
+            <Brand />*/}
         </div>
     )
 }
