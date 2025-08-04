@@ -8,8 +8,6 @@ import PopularProducts from "@/components/PopularProducts";
 import Footer from "@/components/Footer";
 
 
-
-
 export default function Home() {
     return (
         <div>
@@ -21,7 +19,6 @@ export default function Home() {
             <PopularProducts />
             <Footer /> 
             {/* 
-            <Categories />
             <Brand />*/}
         </div>
     )

@@ -24,7 +24,7 @@ export default function Navbar() {
     { name: 'Men', href: '/' },
     { name: 'Women', href: '/products' },
     { name: 'Kids', href: '/vendors' },
-    { name: 'Home', href: '/about' },
+    { name: 'Categories', href: '/about' },
     { name: 'Brands', href: '/brands' },
   ];
 
@@ -46,14 +46,14 @@ export default function Navbar() {
         </nav>
 
         {/* Logo */}
-        <Link href="/" className={`${bruno.className} text-3xl font-black tracking-wide text-zinc-900 col-span-2 text-center`}>
+        <Link href="/" className={`${bruno.className} text-3xl font-black tracking-wide text-zinc-900 col-span-2 text-center`} style={{ color: '#023047'}}>
           Ashur
         </Link>
 
         {/* Auth / Profile */}
         <div className="hidden md:flex gap-4 items-center col-span-3 ">
           <Link href="/login" className="text-sm font-medium text-zinc-700 hover:text-black ms-auto">Login</Link>
-          <Link href="/register" className="px-4 py-2 bg-black text-white rounded-md text-sm hover:bg-zinc-800 transition">Sign Up</Link>
+          <Link href="/register" className="px-4 py-2 text-white rounded-md text-sm hover:bg-[#011621] transition bg-[#023047]">Sign Up</Link>
         </div>
 
       </div>

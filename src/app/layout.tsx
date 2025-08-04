@@ -2,6 +2,10 @@ import type { Metadata } from 'next'
  
 // These styles apply to every route in the application
 import './globals.css'
+// layout.tsx or _app.tsx
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false; // Prevent duplicate CSS
 
 
 import { Poppins } from 'next/font/google';
