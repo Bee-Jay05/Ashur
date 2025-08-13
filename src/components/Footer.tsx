@@ -24,7 +24,13 @@ export default function Footer() {
         <div className="w-3/5">
           <h1 className={`${orbitron.className} text-9xl text-gray-400`} >ASHUR</h1>
         </div>
-        <div className="w-2/5">
+        
+      </div>
+      <hr className='w-[95vw] mx-auto text-gray-500'/>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 !w-[90vw] mx-auto my-16">
+        <div className='col-span-2'>
+          <h1 className={`${bruno.className} text-5xl`}>Ashur</h1>
+          <div className="w-full">
           <h2 className={`text-gray-400 text-base`}>Sign up for our <span className='text-white'>Newsletter</span></h2>
           <form className="mt-4 grid grid-cols-3 gap-4">
             <input
@@ -40,12 +46,6 @@ export default function Footer() {
             </button>
           </form>
         </div>
-      </div>
-      <hr className='w-[95vw] mx-auto text-gray-500'/>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 !w-[90vw] mx-auto my-16">
-        <div className='col-span-2'>
-          <h1 className={`${bruno.className} text-5xl`}>Ashur</h1>
-          <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ad mollitia temporibus, esse modi non voluptates id autem, eius nobis veniam tempore in libero.</p>
         </div>
         <div>
           <h3 className="text-lg font-semibold mb-4">Company</h3>
@@ -63,14 +63,6 @@ export default function Footer() {
             <li><a href="/shipping" className="text-gray-400 hover:text-white transition">Shipping Info</a></li>
           </ul>
         </div>
-        {/* <div>
-          <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-          <ul className="space-y-2">
-            <li><a href="https://facebook.com" className="text-gray-400 hover:text-white transition">Facebook</a></li>
-            <li><a href="https://twitter.com" className="text-gray-400 hover:text-white transition">Twitter</a></li>
-            <li><a href="https://instagram.com" className="text-gray-400 hover:text-white transition">Instagram</a></li>
-          </ul>
-        </div> */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Legal</h3>
           <ul className="space-y-2">
