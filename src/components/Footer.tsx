@@ -20,12 +20,6 @@ const bruno = Bruno_Ace_SC({
 export default function Footer() {
   return (
     <div className={` py-16 mx-auto text-white relative mt-16`} style={{ backgroundColor: '#023047'}}>
-      <div className="flex justify-between items-center mb-16 !w-[90vw] mx-auto">
-        <div className="w-3/5">
-          <h1 className={`${orbitron.className} text-9xl text-gray-400`} >ASHUR</h1>
-        </div>
-        
-      </div>
       <hr className='w-[95vw] mx-auto text-gray-500'/>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 !w-[90vw] mx-auto my-16">
         <div className='col-span-2'>
