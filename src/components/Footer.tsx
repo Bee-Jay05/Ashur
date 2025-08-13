@@ -20,7 +20,7 @@ const bruno = Bruno_Ace_SC({
 export default function Footer() {
   return (
     <div className={` py-16 mx-auto text-white relative mt-16`} style={{ backgroundColor: '#023047'}}>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 !w-[90vw] mx-auto mb-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 !w-[90vw] mx-auto mb-16">
         <div className='col-span-2'>
           <h1 className={`${bruno.className} text-5xl`}>Ashur</h1>
           <div className="w-full">
@@ -40,6 +40,7 @@ export default function Footer() {
           </form>
         </div>
         </div>
+        <div></div>
         <div>
           <h3 className="text-lg font-semibold mb-4">Company</h3>
           <ul className="space-y-2">
